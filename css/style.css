@@ -1,0 +1,25 @@
+header {
+  background-color: white;
+  height: 70px;
+}
+
+.banner {
+  background-color: #0061ff;
+  height: 700px;
+}
+
+.grey {
+  background-color: #f3f5f9;
+  height: 200px;
+}
+
+
+.white {
+  background-color: white;
+  height: 500px;
+}
+
+footer {
+  background-color: #010e28;
+  height: 700px;
+}
