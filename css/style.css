@@ -118,7 +118,15 @@ a , a i {
   color:  #0069ff;
 }
 
+/* FINE PARTNER */
 
+#menu {
+  border-left: 1px solid #0069ff;
+}
+
+#menu li {
+  display: block;
+}
 
 footer {
   background-color: #010e28;
