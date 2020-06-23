@@ -13,6 +13,7 @@
   height: 70px;
   line-height: 70px;
   background-color: white;
+  z-index: 99999;
 }
 
 
@@ -39,8 +40,62 @@ a i {
   color: #076aff;
   border-color: #076aff;
 }
+/* FINE HEADER  */
 
 .banner {
+  background-image:  url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  margin: 50px 0 ;
+}
+
+.jumbotron {
+  background-color: inherit;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: white;
+}
+
+
+.bottom {
+  margin-bottom: 40px;
+}
+
+.padding-top {
+  margin-top: 200px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.blue {
+  background-color: #0069ff;
+  color: white;
+  width: 100%;
+}
+
+.but {
+  margin-top: 40px;
+}
+
+.whites {
+  background-color: white;
+  color: #0069ff;
+  border-color: #0069ff;
+
+}
+
+.git {
+    margin-left: 20px;
+}
+
+
+.greys {
+  background-color: #f3f5f9;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.blu {
   background-color: #0061ff;
   height: 700px;
 }
