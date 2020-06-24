@@ -183,8 +183,54 @@ a , a i {
   margin: auto;
   font-size: 20px;
 }
+/* FINE GET STARTED */
+
 
 footer {
   background-color: #010e28;
   height: 700px;
+}
+
+.mod {
+  padding: 70px;
+  border-bottom: 1px solid #343e53;
+}
+
+#h4 {
+  color: white;
+}
+
+#under {
+  padding-inline-start: 0;
+}
+
+#under li {
+  display: block;
+}
+
+#under li a {
+  color: #748292;
+}
+
+.social {
+  height: 80px;
+  padding: 20px;
+  line-height: 80px;
+}
+
+#block {
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.col-lg-5 p {
+  color: #748292;
+  font-size: 16px;
+}
+
+.network i {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
 }
