@@ -64,8 +64,8 @@ a i {
 
 .jumbotron {
   background-color: inherit;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   color: white;
 }
 
@@ -80,7 +80,7 @@ a i {
 }
 
 .padding-top {
-  margin-top: 200px;
+  margin-top: 100px;
   text-align: center;
   background-color: white;
   border-radius: 10px;
@@ -130,7 +130,21 @@ a , a i {
 
 /* FINE SEZIONE UL VERTICALE */
 
+.blu2 {
+  background-color: #031b4e;
+  padding: 50px 0 ;
+}
 
+.world {
+  margin: 0 auto;
+  color: white;
+}
+
+.margin-bot {
+  color: white;
+  border-bottom: 1px solid #405279;
+  padding: 5px;
+}
 
 footer {
   background-color: #010e28;
