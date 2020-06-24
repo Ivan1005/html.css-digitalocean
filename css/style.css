@@ -27,6 +27,7 @@
   line-height: 70px;
   background-color: white;
   z-index: 99999;
+  border-bottom: 1px solid #5b6994;
 }
 
 
@@ -160,14 +161,60 @@ a , a i {
 }
 
 #menu {
-  border-left: 1px solid #0069ff;
+  border-left: 1px solid #6876aa;
+  padding: 10px;
 }
 
-#menu li {
+#menu li , #menu li a {
   display: block;
+  padding: 10px 0;
+  color: #6876aa;
+}
+
+#menu li a:hover {
+  background-color: #031b4e;
+}
+
+.graph img {
+  padding-bottom: 10px;
+  height: 48px;
+}
+
+.graph h3 {
+  color: #031b4e;
+}
+
+.graph p {
+  color: #656987;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 /* FINE SEZIONE UL VERTICALE */
+
+.graph h2 {
+  color: #031b4e;
+  font-size: 36px;
+}
+
+.graph .img-responsive {
+  height: 100%;
+}
+
+div #blankradio {
+  border: 2px solid #0069ff;
+  background-color:   #0069ff;
+}
+
+/* FINE SEZIONE IMMAGINE */
+
+
+
+
+
+/* FINE SECTION BUILT FOR BUSINESS */
+
 
 .blu2 {
   background-color: #031b4e;
@@ -179,10 +226,33 @@ a , a i {
   color: white;
 }
 
+.world p {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+#band {
+  color: #00d7d2;
+}
+
 .margin-bot {
   color: white;
   border-bottom: 1px solid #405279;
-  padding: 5px;
+  padding: 10px;
+}
+
+.destra {
+  padding-right: 60px;
+}
+
+.speed , .speed i {
+  float: right;
+  color: #00d7d2;
+}
+
+.speed i {
+  line-height: inherit;
 }
 
 /* FINE SEZIONE WORLD */
@@ -190,13 +260,33 @@ a , a i {
 .rocker {
   padding: 10px;
   background-color: white;
+  color: #686c8a;
+}
+
+.rocker .fix {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.fix img {
+  padding: 30px;
 }
 
 #desc {
   font-size: 20px;
   padding: 30px;
-  margin-top: 10px;
+  color: #686c8a;
 }
+
+#desc i {
+  color: #686c8a;
+  font-size: 20px;
+}
+
+#desc .min {
+  font-size: 8px;
+}
+
 /* FINE SEZIONE CEO */
 
 .started {
@@ -228,7 +318,6 @@ a , a i {
 
 footer {
   background-color: #010e28;
-  height: 700px;
 }
 
 .mod {
@@ -253,8 +342,7 @@ footer {
 }
 
 .social {
-  height: 80px;
-  padding: 20px;
+  padding: 40px;
   line-height: 80px;
 }
 
