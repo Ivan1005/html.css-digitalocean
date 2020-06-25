@@ -218,6 +218,23 @@ a , a i {
 
 .graph .img-responsive {
   height: 100%;
+  position: relative;
+}
+
+.fa-arrow-left {
+  position: absolute;
+  top: 50%;
+  left: -15%;
+  font-size: 30px;
+  color: #656987;
+}
+
+.fa-arrow-right {
+  position: absolute;
+  top: 50%;
+  right: -15%;
+  font-size: 30px;
+  color: #656987;
 }
 
 div #blankradio {
@@ -287,6 +304,7 @@ div #blankradio {
   padding: 10px;
   background-color: white;
   color: #686c8a;
+  position: relative;
 }
 
 .rocker .fix {
@@ -487,6 +505,10 @@ footer {
 
 @media  screen and (max-width: 768px) {
 
+  .fas.none {
+    display: none;
+  }
+
   .btn.hamburger {
     margin-left: 30%;
   }
@@ -540,6 +562,11 @@ footer {
 }
 
 @media  screen and (max-width: 450px) {
+
+  .fas.none {
+    display: none;
+  }
+
   .btn.hamburger {
     margin-left: 7%;
   }
