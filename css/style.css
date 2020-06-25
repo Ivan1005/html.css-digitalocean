@@ -4,6 +4,10 @@
   clear: both;
 }
 
+body {
+  max-width: 1700px;
+}
+
 .blu {
   background-color: #0061ff;
 }
