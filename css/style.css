@@ -69,9 +69,17 @@ a i {
   border-color: #076aff;
 }
 
+.rel {
+  position: relative;
+}
+
 .signup {
   background-color: #0069ff;
   color: white;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translatey(-50% );
 }
 
 .hamburger {
