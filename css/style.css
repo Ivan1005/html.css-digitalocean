@@ -74,7 +74,7 @@ a i {
   color: white;
 }
 
-.btn.hamburger {
+.hamburger {
   display: none;
 }
 
@@ -436,7 +436,7 @@ footer {
   }
 
 
-  .btn.hamburger {
+  .hamburger {
     display: inline;
     margin-left: 60%;
   }
@@ -513,7 +513,7 @@ footer {
     display: none;
   }
 
-  .btn.hamburger {
+  .hamburger {
     margin-left: 30%;
   }
 
@@ -571,7 +571,7 @@ footer {
     display: none;
   }
 
-  .btn.hamburger {
+  .hamburger {
     margin-left: 7%;
   }
 
