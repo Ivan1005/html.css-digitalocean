@@ -13,12 +13,15 @@
       <div class="navbar navbar-fixed-top ">
         <div class="container box">
           <div class="row">
-            <div class="col-lg-2 logo clearfix ">
+            <div class="col-lg-2 col-md-12  col-sm-12  logo clearfix ">
               <a href="#">
                 <img  class="img" src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="logo">
               </a>
+              <button type="button" class="  hamburger btn btn-default dropdown-toggle" data-toggle="dropdown" >
+               <i class="fas fa-bars"></i>
+              </button>
             </div>
-            <div class="col-lg-8 ">
+            <div class="col-lg-7 none">
               <ul>
                 <li> <a href="#">Products <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
                 <li> <a href="#">Marketplace</a></li>
@@ -28,8 +31,9 @@
                 <li> <a href="#">Pricing</a></li>
               </ul>
             </div>
-            <div class="col-lg-2">
-              <button   type="button" class="btn btn-default">Sign Up</button>
+            <div class="col-lg-3  none ">
+              <button   type="button" class=" btn btn-default">Sign in</button>
+              <button   type="button" class="  signup btn btn-default">Sign Up</button>
             </div>
           </div>
         </div>
@@ -38,7 +42,7 @@
     <!-- FINE HEADER -->
     <section class="banner">
       <div class="container box">
-        <div class="row">
+        <div class="row ">
           <div class="col-lg-8">
             <div class="jumbotron">
               <h1>Welcome to the developer cloud</h1>
@@ -52,12 +56,12 @@
             <form class="form-horizontal">
               <div class="form-group ">
                 <div class="col-sm-10 col-sm-offset-1">
-                  <input type="name" class="form-control" id="name" placeholder="First Name">
+                  <input type="name" class="form-control" id="name" placeholder="First ">
                 </div>
               </div>
               <div class="form-group">
                 <div class="col-sm-10 col-sm-offset-1">
-                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email Address">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email ">
                 </div>
               </div>
               <div class="form-group">
@@ -67,13 +71,13 @@
               </div>
               <div class="form-group">
                 <div class= "col-sm-10 col-sm-offset-1">
-                  <button type="submit" class=" blue btn btn-default">Sign up with email</button>
+                  <button type="submit" class=" blue btn btn-default">Sign up <span class="sm-none">with email</span></button>
                 </div>
               </div>
               <div class="form-group but">
                 <div class= "col-sm-10 col-sm-offset-1">
                   <div class="col-lg-9 nopadding">
-                    <button type="submit" class="whites btn btn-default"><i class="fab fa-google"></i> Sign up with Google</button>
+                    <button type="submit" class="whites btn btn-default"><i class="fab fa-google"></i> Sign up <span class="sm-none">with Google</span></button>
                   </div>
                   <div class="col-lg-2  col-lg-offset-1 nopadding">
                     <button type="submit" class="whites btn btn-default"><i class="fab fa-github"></i> </button>
@@ -116,16 +120,16 @@
           </div>
         </div>
         <div class="row but">
-          <div class="col-lg-2">
+          <div class="col-lg-2 orizzontal">
             <ul id="menu">
-              <li> <a href="#">Deploy</a></li>
-              <li><a href="#">Scale</a> </li>
-              <li><a href="#">Store</a> </li>
-              <li><a href="#">Secure</a> </li>
-              <li><a href="#">Monitor</a> </li>
+              <li><a href="#">Deploy</a></li>
+              <li><a href="#">Scale</a></li>
+              <li><a href="#">Store</a></li>
+              <li><a href="#">Secure</a></li>
+              <li><a href="#">Monitor</a></li>
             </ul>
           </div>
-          <div class="col-lg-9 col-lg-offset-1">
+          <div class="col-lg-9 col-lg-offset-1 ">
             <div class="row">
               <div class="col-lg-6 text-left graph">
                 <img src="https://images.prismic.io/www-static/16ae92b4-6939-446c-b6a3-0ffec01cdc14_kublogoicon.svg?auto=compress,format" alt="">
@@ -212,14 +216,14 @@
     </section>
     <!-- FINE SECIOTN BUILT FOR BUSINESS -->
     <section class="blu2">
-      <div class="container box">
+      <div class="container box sm-world">
         <div class="row ">
           <div class="col-lg-12 text-center world">
             <h2>Service your customers around the world from 13 data centers.</h2>
             <p>Run your infrastructure near your customers. Industry-low <a id="band" href="#">bandwidth pricing</a>, with generous quotas and add-on transfer at just $.01/GiB, makes DigitalOcean perfect for network-heavy apps like VPN and video.</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row row-md">
           <div class="col-lg-6">
             <div class="margin-bot">
               <span class="destra">AMS2</span> <span>Amsterdam, Netherlands</span><a  class="speed" href="#">Text speed  &nbsp;<i class="fas fa-chevron-right"></i></a>
@@ -231,7 +235,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row row-md">
           <div class="col-lg-6">
             <div class="margin-bot">
               <span  class="destra">BLR1</span> <span>Bangalore, India</span><a  class="speed" href="#">Text speed  &nbsp;<i class="fas fa-chevron-right"></i></a>
@@ -243,7 +247,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row row-md">
           <div class="col-lg-6">
             <div class="margin-bot">
               <span  class="destra">LON1</span> <span>London, UK</span><a  class="speed" href="#">Text speed  &nbsp;<i class="fas fa-chevron-right"></i></a>
@@ -255,7 +259,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row row-md">
           <div class="col-lg-6">
             <div class="margin-bot">
               <span  class="destra">NYC2</span> <span>New York, NY</span class="speed"><a  class="speed" href="#">Text speed &nbsp; <i class="fas fa-chevron-right"></i></a>
@@ -267,7 +271,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row row-md">
           <div class="col-lg-6">
             <div class="margin-bot">
               <span  class="destra">SFO1</span> <span>San Francisco, CA</span><a  class="speed" href="#">Text speed  &nbsp;<i class="fas fa-chevron-right"></i></a>
@@ -279,7 +283,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row row-md">
           <div class="col-lg-6">
             <div class="margin-bot">
               <span  class="destra">SFO3</span> <span>San Francisco, CA</span><a  class="speed" href="#">Text speed  &nbsp;<i class="fas fa-chevron-right"></i></a>
@@ -291,7 +295,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row row-md">
           <div class="col-lg-6">
             <div class="margin-bot">
               <span  class="destra"> TOR1</span> <span>Toronto, Canada</span><a  class="speed" href="#">Text speed  &nbsp;<i class="fas fa-chevron-right"></i></a>
@@ -328,10 +332,10 @@
     <section class="started">
       <div class="container box">
         <div class="row line">
-          <div class="col-lg-3">
+          <div class="col-lg-3  col-lg-offset-0 col-md-4  col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
             <h2 id="h2">Get started now</h2>
           </div>
-          <div class="col-lg-3 col-lg-offset-6">
+          <div class="col-lg-3 col-lg-offset-6  col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-10 col-xs-offset-1">
             <button  id="account" type="button" name="button">Create your account</button>
           </div>
         </div>
@@ -341,9 +345,9 @@
     <footer>
       <div class="conainer box">
         <div class="row mod ">
-          <div class="col-lg-2 col-lg-offset-1">
+          <div class="col-lg-2 col-lg-offset-1  col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-2 col-xs-12 ">
             <h4 id="h4">Company</h4>
-            <ul id="under">
+            <ul class="under">
               <li><a href="#">About</a></li>
               <li><a href="#">Leadership</a></li>
               <li><a href="#">Blog</a></li>
@@ -355,9 +359,9 @@
               <li><a href="#">Trust Platform</a></li>
             </ul>
           </div>
-          <div class="col-lg-2">
+          <div class="col-lg-2   col-lg-offset-0 col-md-5 col-md-offset-0 col-sm-5  col-sm-offset-0 col-xs-12 ">
             <h4 id="h4">Products</h4>
-            <ul id="under">
+            <ul class="under">
               <li><a href="#">Products Overview</a></li>
               <li><a href="#">Droplets</a></li>
               <li><a href="#">Kubernetes</a></li>
@@ -372,9 +376,9 @@
               <li><a href="#">Documentation</a></li>
               <li><a href="#">Release Notes</a></li>
           </div>
-          <div class="col-lg-2">
+          <div class="col-lg-2  col-lg-offset-0 col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-2 pd-top col-xs-12">
             <h4 id="h4">Community</h4>
-            <ul id="under">
+            <ul class="under">
               <li><a href="#">Tutorials</a></li>
               <li><a href="#">Meetups</a></li>
               <li><a href="#">Q&A</a></li>
@@ -386,30 +390,29 @@
               <li><a href="#">Currents Research</a></li>
               <li><a href="#">Open Source</a></li>
           </div>
-          <div class="col-lg-2">
+          <div class="col-lg-2   col-lg-offset-0 col-md-5  col-md-offset-0 col-sm-5  col-sm-offset-0 pd-top col-xs-12">
             <h4 id="h4">Solutions</h4>
-            <ul id="under">
+            <ul class="under">
               <li><a href="#">Web & Mobile Apps</a></li>
               <li><a href="#">Website Hosting</a></li>
               <li><a href="#">Big Data</a></li>
               <li><a href="#">Managed Services</a></li>
               <li><a href="#">Business Solutions</a></li>
           </div>
-          <div class="col-lg-2">
+          <div class="col-lg-2  col-lg-offset-0 col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 pd-top col-xs-12">
             <h4 id="h4">Contact</h4>
-            <ul id="under">
+            <ul class="under">
               <li><a href="#">Support</a></li>
               <li><a href="#">Sales</a></li>
               <li><a href="#">Report Abuse</a></li>
               <li><a href="#">System Status</a></li>
           </div>
         </div>
-        <div class="row social">
-          <div class="col-lg-5">
-            <img  id="block" src="https://images.prismic.io/www-static%2F903fd83b-8963-42c2-baf6-44f4d6bb83f2_digitalocean-logo-mark.svg?auto=compress,format" alt="">
-            <p>© 2020 DigitalOcean, LLC. All rights reserved.</p>
+        <div class="row social center">
+          <div class="col-lg-6 col-lg-offset-0  col-md-8 col-md-offset-2">
+            <p><img  id="block" src="https://images.prismic.io/www-static%2F903fd83b-8963-42c2-baf6-44f4d6bb83f2_digitalocean-logo-mark.svg?auto=compress,format" alt="">© 2020 DigitalOcean, LLC. All rights reserved.</p>
           </div>
-          <div class="col-lg-4 col-lg-offset-3 network">
+          <div class="col-lg-5 col-lg-offset-1  col-md-12 network">
             <i class="fab fa-twitter"></i>
             <i class="fab fa-facebook-square"></i>
             <i class="fab fa-instagram"></i>

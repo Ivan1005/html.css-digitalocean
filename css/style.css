@@ -18,15 +18,19 @@
 }
 
 .box {
-  width: 80%;
+  width: 85%;
   margin: 0 auto ;
+}
+
+.row {
+  position: relative;
 }
 
 .navbar {
   height: 70px;
   line-height: 70px;
   background-color: white;
-  z-index: 99999;
+  z-index: 999;
   border-bottom: 1px solid #5b6994;
 }
 
@@ -58,6 +62,16 @@ a i {
   color: #076aff;
   border-color: #076aff;
 }
+
+.signup {
+  background-color: #0069ff;
+  color: white;
+}
+
+.btn.hamburger {
+  display: none;
+}
+
 /* FINE HEADER  */
 
 .banner {
@@ -101,7 +115,8 @@ a i {
 
 .form-control {
   border: 1px solid #e5e8ed;
-  font-size: 16px;
+  font-size: 20px;
+  height: 45px;
 }
 
 .blue {
@@ -140,7 +155,6 @@ a i {
 
 a , a i {
   color:  #0069ff;
-  font-size: 16px;
 }
 
 /* FINE PARTNER */
@@ -156,7 +170,6 @@ a , a i {
 
 .deploy p {
   color: #5b6987;
-  padding: 10px;
   font-size: 18px;
 }
 
@@ -172,7 +185,7 @@ a , a i {
 }
 
 #menu li a:hover {
-  background-color: #031b4e;
+  color: #031b4e;
 }
 
 .graph img {
@@ -182,6 +195,7 @@ a , a i {
 
 .graph h3 {
   color: #031b4e;
+  font-size: 22px;
 }
 
 .graph p {
@@ -233,6 +247,10 @@ div #blankradio {
 }
 
 #band {
+  color: #0065ec;
+}
+
+#band:hover {
   color: #00d7d2;
 }
 
@@ -255,6 +273,10 @@ div #blankradio {
   line-height: inherit;
 }
 
+.speed:hover , .speed i:hover {
+    color: #0065ec;
+}
+
 /* FINE SEZIONE WORLD */
 
 .rocker {
@@ -270,6 +292,7 @@ div #blankradio {
 
 .fix img {
   padding: 30px;
+  margin: 0 auto;
 }
 
 #desc {
@@ -313,6 +336,11 @@ div #blankradio {
   margin: auto;
   font-size: 20px;
 }
+
+#account:hover {
+  background-color: rgba(225,225,225,0.9);
+}
+
 /* FINE GET STARTED */
 
 
@@ -329,16 +357,20 @@ footer {
   color: white;
 }
 
-#under {
+.under {
   padding-inline-start: 0;
 }
 
-#under li {
+.under li {
   display: block;
 }
 
-#under li a {
+.under li a {
   color: #748292;
+}
+
+.under li a:hover {
+  color: white;
 }
 
 .social {
@@ -352,13 +384,176 @@ footer {
   margin-right: 10px;
 }
 
-.col-lg-5 p {
+.social p {
   color: #748292;
   font-size: 16px;
 }
 
 .network i {
-  color: white;
+  color: #748292;
   font-size: 20px;
   padding: 10px;
+}
+
+.network i:hover {
+  color: white;
+}
+
+
+@media  screen and (max-width: 1200px) {
+  .none {
+    display: none;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+
+  .btn.hamburger {
+    display: inline;
+    margin-left: 60%;
+  }
+
+  .jumbotron {
+    text-align: center;
+    padding: 50px;
+  }
+
+  .top {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .partner img {
+    padding: 10px 40px;
+  }
+
+  .orizzontal {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #menu {
+  border: none;
+  }
+
+  #menu li {
+    border-bottom: 2px solid #0069ff;
+  }
+
+  #menu li , #menu li a {
+    display: inline;
+  }
+
+  .graph {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .row-md{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .line {
+    height: 100%;
+  }
+
+ #h2 {
+   font-size: 20px;
+ }
+
+  #account {
+    font-size: 15px;
+    padding: 4px;
+  }
+
+  .pd-top {
+    padding-top: 20px;
+  }
+
+  #block {
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+}
+
+
+@media  screen and (max-width: 768px) {
+
+  .btn.hamburger {
+    margin-left: 30%;
+  }
+
+  .banner {
+    padding-top: 50px;
+  }
+
+ .form-horizontal {
+  padding: 5px;
+ }
+
+  .destra {
+    padding-right: 20px;
+  }
+
+  .sm-world {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .row.line {
+  text-align: center;
+  }
+
+  #h2 {
+    font-size: 30px;
+  }
+
+  .mod div {
+    text-align: center;
+  }
+
+  .under {
+    font-size: 20px;
+    text-align: center;
+  }
+
+ .under li {
+  display: inline-block;
+ }
+
+  .row-md{
+    width: 100%;
+  }
+
+  .social {
+    line-height: 30px;
+  }
+}
+
+@media  screen and (max-width: 450px) {
+  .btn.hamburger {
+    margin-left: 7%;
+  }
+
+  .top {
+    width: 90%;
+  }
+
+  .img {
+    max-width: 150px;
+  }
+
+  .sm-none {
+    display: none;
+  }
+
+  .row-md{
+    font-size: 12px;
+  }
+
 }
